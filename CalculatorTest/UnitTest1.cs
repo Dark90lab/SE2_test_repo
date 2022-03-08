@@ -7,7 +7,7 @@ namespace CalculatorTest
     public class UnitTest1
     {
         [Theory]
-        [InlineData(1,2,5)]
+        [InlineData(1,2,3)]
         public void SumTwoNumbers(int x, int y,int expectedResult)
         {
             int result = NumberCalculator.sumNumbers(x, y);
